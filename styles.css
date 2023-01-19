@@ -77,3 +77,25 @@ header {
     margin-top: 0.6em;
     padding: 0.6em;
 }
+
+/*desktop*/
+@media only screen and (max-width: 1200px) {
+    body{
+        font-size:16px;
+    }
+}
+
+/*tablet*/
+@media only screen and (max-width: 768px) {
+    #content {
+        display: block;
+        background-color: yellow;
+    }
+    #info {
+        width: 100%;
+    }
+    #sidebar {
+        width: 100%;
+        margin-top: 0.6em;
+    }
+}
