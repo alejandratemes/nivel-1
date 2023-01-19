@@ -99,3 +99,24 @@ header {
         margin-top: 0.6em;
     }
 }
+
+/*mobile*/
+@media only screen and (max-width: 576px) {
+    body{
+        font-size:16px;
+    }
+    #nav {
+        display: block;
+    }
+    #content {
+        display: block;
+        background-color: yellow;
+    }
+    #texto1 {
+        color:rgb(21, 21, 182);
+        column-count: 1;
+    }
+    #info {
+        padding: 0.6em;
+    }
+}
